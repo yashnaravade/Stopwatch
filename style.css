@@ -1,33 +1,50 @@
-/* .stopwatch {
-    font-size: 1.5em;
-    font-weight: bold;
-     color: #000; 
-    text-align: center;
+*{
     margin: 0;
     padding: 0;
 }
 
-.display {
-    font-size: 1.5em;
-    font-weight: bold;
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #000, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stopwatch{
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stopwatch-time{
+    font-size: 50px;
+    font-weight: 700;
     color: #000;
-    text-align: center;
-    margin: 0;
-    padding: 0;
 }
 
-.buttons {
-    text-align: center;
-    size: 3.5em;
-} */
+.stopwatch-controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
-body{
-    background-color: #000;
+.stopwatch-controls button{
+    width: 90px;
+    height: 50px;
+    background: #000;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    font-weight: bold;
-    text-align: center;
-    margin: auto;
-    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
 }
